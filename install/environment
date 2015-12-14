@@ -1,0 +1,6 @@
+var PATHs = {
+	DATA_PATH:DATA_PATH,
+	JAR_PATH:JAR_PATH
+}
+module.exports = PATHs;
+

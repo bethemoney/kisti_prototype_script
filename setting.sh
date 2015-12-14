@@ -1,0 +1,13 @@
+#setting.sh
+ROOT_PATH=~/shell_test
+NODEJS_PATH=$ROOT_PATH/nodeserver/
+NODE_PATH=~/node/
+NODEJS_ROUTE_PATH=$NODEJS_PATH/routes/
+VECTORS_PATH=$ROOT_PATH/vector/
+NEWS_PATH=$ROOT_PATH/news/
+NEWS_TMP_PATH=$ROOT_PATH/newstmp/
+NEWS_RAW_PATH=$ROOT_PATH/news_row/data/
+NEWS_REFINED_PATH=$NODEJS_PATH/routes/refinednews/
+JARS_PATH=$ROOT_PATH/jars/
+DBOUT_PATH=$ROOT_PATH/dbout/
+COLLECT_PATH=$ROOT_PATH/collects/
