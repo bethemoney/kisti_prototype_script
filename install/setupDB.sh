@@ -25,6 +25,6 @@ mysql -u root -p$1 -e "${Q1}${Q0}${Q2}${Q3}${Q4}"
 mysql -u root -p$1 -e "${Q5}"
 # UTF-8이 설정된 mysql 설정파일 변경
 mkdir -p /etc/mysql/conf.d/
-sudo cp ../my.cnf /etc/
+sudo cp ./my.cnf /etc/
 # mysql 재시작
 sudo systemctl restart mysqld
