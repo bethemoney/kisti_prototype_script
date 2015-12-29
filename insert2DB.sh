@@ -12,4 +12,4 @@ fi
 
 # Jar파일 통한 DB INSERT
 mkdir -p $DBOUT_PATH
-java -jar ./jars/DB_INSERT_0.7.jar $COLLECT_PATH $1/$2 $3 $4
+java -jar $JARS_PATH/DB_INSERT_0.7.jar $COLLECT_PATH $1/$2 $3 $4

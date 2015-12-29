@@ -13,7 +13,7 @@ fi
 # Jar를 통한 DB로부터 데이터 추출
 mkdir -p $DBOUT_PATH
 mkdir -p $VECTORS_PATH
-java -jar jars/KISTI_DBtoVector.jar 6 $DBOUT_PATH/ $1 $2 $3 $4
+java -jar $JARS_PATH/DBtoVector.jar 6 $DBOUT_PATH/ $1 $2 $3 $4
 
 # DB로부터 추출된 파일 마다 word2vec 수행
 for filename in $DBOUT_PATH/*; do
